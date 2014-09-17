@@ -1,0 +1,36 @@
+{
+    "name": "Teknoseyir Notifications",
+    "version": "1.2.0",
+    "manifest_version": 2,
+    "description": "Teknoseyir bildirim eklentisi.",
+    "homepage_url": "http://www.teknoseyir.com",
+    "icons": {
+        "16": "icons/ts.png",
+        "48": "icons/ts.png",
+        "128": "icons/ts.png"
+    },
+    "default_locale": "en",
+    "options_page": "src/options/index.html",
+    "browser_action": {
+        "default_icon": "icons/ts.png",
+        "default_title": "ts",
+        "default_popup": "src/browser_action/browser_action.html"
+    },
+    "background": {
+        "scripts": ["js/jquery/jquery.min.js", "js/base64/base64.js", "js/bootstrap/bootstrap.min.js", "js/Storage.js", "js/teknoseyir.js", "js/background.js"]
+    },
+    "permissions": [
+        "clipboardWrite",
+        "cookies",
+        "storage",
+        "idle",
+        "notifications",
+        "tabs",
+        "<all_urls>",
+        "http://*/",
+        "https://oauth.io/*"
+    ],
+    "externally_connectable": {
+        "matches": ["https://oauth.io/*"]
+    }
+}

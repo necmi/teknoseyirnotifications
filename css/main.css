@@ -1,0 +1,60 @@
+body{
+	width: 400px;
+}
+
+li.bildirim {
+	font-size: 13px;
+	padding: 5px 0px 5px 6px;
+	display: block;
+	min-height: 50px;
+	white-space: normal;
+	color: #333;
+	border-bottom: 1px solid #D5D5D5;
+}
+
+ul.notification-list {
+	padding: 3px 3px;
+	list-style: none;
+}
+
+ul.notification-list img{
+	margin-right: 8px;
+}
+
+ul.notification-list .timeago{
+	color: #d3d3d3;
+	font-size: 10px!important;
+	margin-right: 7px;
+}
+
+li.bildirim:last-child {
+	border: none;
+}
+.loginForm{
+	padding: 0 10%;
+	/* margin-top: 50px; */
+	padding-top: 100px;
+	height: 100%;
+}
+
+.loginForm button{
+	margin-top: 12px;
+}
+
+.logo{
+	display: block;
+	margin: 20%;
+}
+
+.description{
+	text-align: center;
+}
+
+.status {
+	text-align: center;
+}
+
+.statusL{
+	text-align: center;
+	padding-top: 5px;
+}

@@ -1,0 +1,15 @@
+body{
+	padding: 30px 30px;
+}
+
+.minutes {
+	display: inline-block;
+}
+
+.form-group {
+	width: 400px;
+}
+
+.slider{
+	margin-left: 20px;
+}

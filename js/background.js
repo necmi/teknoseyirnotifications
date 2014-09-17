@@ -12,7 +12,7 @@ BackgroundHandler.init = function() {
     Storage.set("isAuth", null);
     Storage.set("objectID", null);
     Storage.set("nonce", null);
-    Storage.set("interval", 6000);
+    Storage.set("interval", 60000);
 
     this.extend();
 };
